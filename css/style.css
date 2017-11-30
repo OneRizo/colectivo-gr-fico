@@ -1,288 +1,131 @@
-@charset "utf-8";
+@charset"utf-8";
 
 *{
-  margin: 0;
-  padding: 0;
-}
-
-body, html {
-  width: 100%;
-  height: 100%;
-}
-.nopadding{
-padding: 0 !important;
+	margin: 0px;
+	padding: 0px;
 }
 
 .nomargin{
-  margin:0 !important;
+	margin: 0px !important;
 }
+.nopadding{
+	padding: 0px !important;
 
-.img-fluid {
-width: 100%;
-height: auto;
-float: left;
 }
-
-h2 {
-font-family: helvetica, tahoma, arial !important;
-font-size: 30px !important;
-text-align: center !important;
-}
-
-.mb-4{
-margin-bottom: 4%;	
-}
-
-.card{
-  position: relative;
-  display: block;
-  min-height: 0;
-  word-wrap: break-word;
-  background-color: rgb(255,255,255);
-  border: 1px solid rgba(0,0,0,.125);
-  border-radius: 0.25rem;
-}
-
-.text-member{
-color:rgb(164, 164, 162);	
-font-size: 9pt;
-font-weight: lighter;
-}
-
-.py-5{
-padding-top: 3rem !important;
-padding-bottom: 3rem !important;
-}
-
-.bg-dark{
-color:rgb(255, 255, 255);
-background-color: rgb(85, 85, 85);	
-}
-
-
-.overlay {
-  position: fixed;
-  display: none;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom:0;
-  background-color: rgba(250,250,250,0.8);
-  z-index: 1;
-}
-/*esta es la imagen del perfil victor*/
-
-article{
-	background: rgb(255, 255, 255);
+.w100{
 	width: 100%;
-	min-height: 75px;
-	margin-top: 1px;
+	height:auto;
 	float: left;
-	margin-bottom: 0%;
-}
-section {
-background: rgb(255, 255, 255);
-width: 100%;
-min-height: 75px;
-margin-top: 1px;
-float: left;
-margin-bottom: 0.5%;
-
 }
 
+@media (min-width:0px)and(max-width: 767px){
+	.pull-right{
+		float: left !important;
 
-
-.header-icon {
-background: url(../img/banner2.jpg) no-repeat center;
-width: 100%;
-height: 840px;
- }
-
-
-/*aca css de karla*/
-@charset "utf-8";
-
-*{
-  margin: 0;
-  padding: 0;
+	}
 }
 
-body, html {
-  width: 100%;
-  height: 100%;
+@media(max-width: 767px){
+	.pull-right{
+		float: left!important;
+	}
 }
-.nopadding{
-padding: 0 !important;
-}
-
-.nomargin{
-  margin:0 !important;
-}
-
-.img-fluid {
-width: 100%;
-height: auto;
-float: left;
-}
-
-h2 {
-font-family: helvetica, tahoma, arial !important;
-font-size: 30px !important;
-text-align: center !important;
-}
-
-.mb-4{
-margin-bottom: 4%;  
-}
-
-.card{
-  position: relative;
-  display: block;
-  min-height: 0;
-  word-wrap: break-word;
-  background-color: rgb(255,255,255);
-  border: 1px solid rgba(0,0,0,.125);
-  border-radius: 0.25rem;
-}
-
-.text-member{
-color:rgb(164, 164, 162); 
-font-size: 9pt;
-font-weight: lighter;
-}
-
-.py-5{
-padding-top: 3rem !important;
-padding-bottom: 3rem !important;
-}
-
-.bg-dark{
-color:rgb(255, 255, 255);
-background-color: rgb(85, 85, 85);  
-}
-
-
-.overlay {
-  position: fixed;
-  display: none;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom:0;
-  background-color: rgba(250,250,250,0.8);
-  z-index: 1;
-}
-/*esta es la imagen del perfil victor*/
-
-article{
-  background: rgb(255, 255, 255);
-  width: 100%;
-  min-height: 75px;
-  margin-top: 1px;
-  float: left;
-  margin-bottom: 0%;
-}
-section {
-background: rgb(255, 255, 255);
-width: 100%;
-min-height: 75px;
-margin-top: 1px;
-float: left;
-margin-bottom: 0.5%;
-
-}
-
-
-
-.header-icon {
-background: url(../img/banner2.jpg) no-repeat center;
-width: 100%;
-height: 840px;
- }
-
-
-/*aca css de karla*/
-@charset "utf-8";
-
-*{
-  margin: 0;
-  padding: 0;
-}
-
-.nopadding{
-  padding: 0px !important;
-}
-.navbar-inverse{
-  background: rgb(0, 0, 0) !important;
-  border: none !important;
-  border-radius: 0px !important;
-
-}
-
-
-.nomargin{
-  margin: 0px !important;
-}
-
-.pull-right{
-  float: right;
-}
-
-@media (max-width:768px){
-  .pull-right{
-  float: left !important;
-    }
-    
-    .w100{
-  width: 100%;
-  height: auto;
-  float: left;
+@media(min-width:768px){
+	.w100{
+		width: auto !important;
+	}
 }
 
 
 .active > a{
-  background: rgb(0, 0, 0) !important;
+	background: rgb(194,50,50) !important;
+}
+
+.navbar-inverse{
+	margin-bottom: 0px;
+	background: rgb(3,19,51) !important;
+	border-radius: 0px !important;
+	border: 15px solid rgb(194,50,50)
 
 }
 
-ul > li > a{
-  color: rgb(255,255,255) !important;
-  font-family: tahoma !important;
-}
-
-.navbar-toggle{
-  background: rgb() !important;
+.navbar-nav > li:hover > a{
+	background: rgb(194,50,50) !important;
 
 }
 
-ul > li:hover > a{
-  background: rgb(255,255,255) !important;
-
+.navbar-nav > li > a{
+	color:rgb(234,192,33) !important;
 }
 
-.navbar{
-  margin-bottom: 0px !important;
+.navbar-brand >  {
+	margin-top: 0px !important;
+	margin-bottom: 0px  !important;
+
 }
-
-
 
 .img-fluid{
-  max-width: 100%;
-  height: auto;
+	width: 100%;
+	height: auto;
+	margin-bottom: 0px  !important;
 
 }
 
-.bannergrazz{
-  padding: 100px 0;
-  color: rgb(248, 248, 248);
-  background: url(../img/footergrazz.jpg) no-repeat center;
-  background-size: cover;
+.zoomin img{
+	height: 400px !important;
+	width: 400px !important;
+	-webkit-transition: all 2s ease !important;
+	-moz-transition: all 2s ease !important;
+	-ms-transition: all 2s ease !important;
+	transition: all 2s ease !important;
+}
+
+.zoomin img:hover {
+	width: 625px !important; 
+	height: 625px !important;
+}
+
+.content-section-a{
+	padding: 50px 0;
+	background-color: rgb(242,242,242);
+	font-size: 12px !important;
+	font-color: white !important;
+
 
 }
 
+.col-md-7{
+	width: 400px !important;
+}
 
+.content-section-b{
+	background-color: rgb(196,37,47);	padding: 50px 0;
+	border-top: 1px solid rgb( 231,231,231);
+
+}
+
+.content-section-c{
+	padding: 50px 0;
+	background-color: rgb(242,242,242);
+
+}
+
+.banner{
+	padding: 100px 0;
+	color: rgb(248,248,248);
+	width: 100% !important;
+	min-height: 100% !important;
+	height: 100% !important;
+	background: url(../images/emg7.jpg); no-repeat center;
+	background-size: cover;
+
+
+}
+
+.bg-dark{
+	background: rgb(3,19,51);
+	width: 100%;
+	min-height: 10px;
+	float: left;
+	color: rgb(255,255,255) !important;
 }
