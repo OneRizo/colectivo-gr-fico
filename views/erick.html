@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,71 +12,166 @@
 
 <body>
  <div id="wrapper">
-        <div class="overlay"></div>
-        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
-            <ul class="nav sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="#">
-                       Portafolios
-                    </a>
-                </li>
-                <li>
-                    <a href="../index.html">Home</a>
-                </li>
-                <li>
-                    <a href="#">Alumno 1</a>
-                </li>
-                <li>
-                    <a href="#">Alumno 2</a>
-                </li>
-                <li>
-                    <a href="#">Alumno 3</a>
-                </li>
-            </ul>
-        </nav>
-        <!-- /#sidebar-wrapper -->
+  <div class="overlay"></div>
+  <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+    <ul class="nav sidebar-nav">
+      <li class="sidebar-brand">
+        <a href="#">
+         Colectivo Gráfico
+       </a>
+     </li>
+     <li>
+      <a href="../index.html">Inicio</a>
+    </li>
+    <li>
+      <a href="#">Karla Graciela</a>
+    </li>
+    <li>
+      <a href="#">Victor Alvarenga</a>
+    </li>
+    <li>
+      <a href="#">Erick Hernandez</a>
+    </li>
+    <li>
+      <a href="#">Leonidez Hernandez</a>
+    </li>
+  </ul>
+</nav>
+</div>    
+<!-- /#sidebar-wrapper -->
 
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
-                  <span class="hamb-top"></span>
-                  <span class="hamb-middle"></span>
-                   <span class="hamb-bottom"></span>
-            </button>
-            <div class="container dvfooter">
-                <div class="row">
-                    <div class="col-md-2">
+<!-- esta seccion es el carrusel  -->
+<section>
+ <article id="miSlide" class="carousel slide">
+   <ol class="carousel-indicators">
 
-                           <div class="imagen"></div>     
-                    </div>
-                    <div class="col-md-10">
-                    <h2 class="section-heading nomargin">My name</h2>
-                      <p class="lead">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                       <hr class="section-heading-spacer">
-                    </div>
-                </div>
-            </div>
-            <footer class="py-5 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+    <li class="active" 
+    data-target="#miSlide" 
+    data-slide-to="0"></li>
+
+    <li data-target="#miSlide" 
+    data-slide-to="1"></li>
+
+    <li data-target="#miSlide" 
+    data-slide-to="2"></li>
+
+    <li data-target="#miSlide" 
+    data-slide-to="3"></li>
+  </ol>
+
+  <div class="carousel-inner">
+    <div class="item active"><img src="../img/emg1.jpg" class="adaptar"></div>
+
+    <div class="item"><img src="../img/emg2.jpg"></div>
+
+    <div class="item"><img src="../img/emg3.jpg"></div>
+
+    <div class="item"><img src="../img/emg4.jpg"></div>
+
+  </div>
+
+  <a href="#miSlide" class="left carousel-control" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a>
+
+  <a href="#miSlide" class="right carousel-control" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
+
+</article>
+
+<!-- aqui comienza el articulo con los textos -->
+
+<div id="page-content-wrapper">
+  <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+    <span class="hamb-top"></span>
+    <span class="hamb-middle"></span>
+    <span class="hamb-bottom"></span>
+  </button>
+  <div class="container dvfooter">
+    <div class="row">
+      <div class="col-md-7">
+        <hr class="section-heading-spacer">
+      </hr>
+      <br>
+      <h2 class="section-heading">¿Quienes somos?
+        <br> ¿Que hacemos?<br>¿Que construimos?</h2><br>
+        <p class="lead">Somos alma, cuerpo y espiritu.<br> Nuestra imagen es parte de nuestra identidad, pero quienes somos cuando conocen nuestro trabajo pero no nuestro rostro.
+        </p>
       </div>
-      <!-- /.container -->
-    </footer>
-        </div>
-
+      <div class="col-md-5 zoomin"> 
+        <img src="../img/emg5.jpg">
+      </div>
     </div>
-    <!-- Bootstrap core JavaScript-->
-    <script src="../js/jquery/jquery-1.12.4.js"></script>
-    <script src="../js/bootstrap/bootstrap.js"></script>
-    <script src="../js/sb-admin.js"></script>
-      <script type="text/javascript">
-      $(document).ready(function () {
-          var trigger = $('.hamburger'),
-          overlay = $('.overlay'),
-          isClosed = false;
+  </article>
+</section>
 
-          trigger.click(function () {
-          hamburger_cross();      
+<section class="content-section-b">
+  <article class="container">
+    <div class="row">
+
+      <div class="col-md-5"> 
+        <img src="../img/emg9.jpg" class="img-fluid">
+      </div>
+      <div class="col-md-7">
+        <hr class="section-heading-spacer">
+      </hr>
+      <br>
+      <h2 class="section-heading">Sin rostro</h2>
+      <br>
+      <p class="lead">Capítulo I<br>
+
+        Esta es la historia de Don Luis, Don David y Don Mario. Artesanos sin rostro ni reconocimiento.
+
+      </div>
+    </div>
+  </article>
+</section>
+
+<section class="content-section-c">
+  <article class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <hr class="section-heading-spacer">
+      </hr>
+      <br>
+      <h2 class="section-heading">El aserradero de occidente </h2>
+      <br>
+      <p class="lead">"Simplemente asombroso"<br>
+        "Me parece increible saber que es aqui"<br>
+        ¿Y eso es aqui?<br><br>
+        Esas fueron las frases y preguntas hechas por los chalchuapanecos expectadores de esta muestra fotográfica. </p>
+        <p align=right>[Chalchuapa, Santa ana.]
+
+
+        </div>
+        <div class="col-md-5"> 
+          <img src="../img/emg8.jpg" class="img-fluid">
+        </div>
+      </div>
+    </article>
+  </section>
+
+
+
+  <footer class="bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">&nbsp;</div>
+        <div class="col-md-2" text-center text-white >HP12041</div>
+        <div class="col-md-5">&nbsp;</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="../js/jquery/jquery-1.12.4.js"></script>
+  <script src="../js/bootstrap/bootstrap.js"></script>
+  <script src="../js/sb-admin.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function () {
+    var trigger = $('.hamburger'),
+    overlay = $('.overlay'),
+    isClosed = false;
+
+    trigger.click(function () {
+      hamburger_cross();      
     });
 
     function hamburger_cross() {
@@ -95,14 +187,14 @@
         trigger.addClass('is-open');
         isClosed = true;
       }
-  }
-  
-  $('[data-toggle="offcanvas"]').click(function () {
-        $('#wrapper').toggleClass('toggled');
-  });  
-});
+    }
+
+    $('[data-toggle="offcanvas"]').click(function () {
+      $('#wrapper').toggleClass('toggled');
+    });  
+  });
   </script> 
-  </div>
+</div>
 </body>
 
 </html>
