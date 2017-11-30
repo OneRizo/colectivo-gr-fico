@@ -109,11 +109,115 @@ height: 840px;
   padding: 0;
 }
 
+body, html {
+  width: 100%;
+  height: 100%;
+}
+.nopadding{
+padding: 0 !important;
+}
+
+.nomargin{
+  margin:0 !important;
+}
+
+.img-fluid {
+width: 100%;
+height: auto;
+float: left;
+}
+
+h2 {
+font-family: helvetica, tahoma, arial !important;
+font-size: 30px !important;
+text-align: center !important;
+}
+
+.mb-4{
+margin-bottom: 4%;  
+}
+
+.card{
+  position: relative;
+  display: block;
+  min-height: 0;
+  word-wrap: break-word;
+  background-color: rgb(255,255,255);
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
+}
+
+.text-member{
+color:rgb(164, 164, 162); 
+font-size: 9pt;
+font-weight: lighter;
+}
+
+.py-5{
+padding-top: 3rem !important;
+padding-bottom: 3rem !important;
+}
+
+.bg-dark{
+color:rgb(255, 255, 255);
+background-color: rgb(85, 85, 85);  
+}
+
+
+.overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom:0;
+  background-color: rgba(250,250,250,0.8);
+  z-index: 1;
+}
+/*esta es la imagen del perfil victor*/
+
+article{
+  background: rgb(255, 255, 255);
+  width: 100%;
+  min-height: 75px;
+  margin-top: 1px;
+  float: left;
+  margin-bottom: 0%;
+}
+section {
+background: rgb(255, 255, 255);
+width: 100%;
+min-height: 75px;
+margin-top: 1px;
+float: left;
+margin-bottom: 0.5%;
+
+}
+
+
+
+.header-icon {
+background: url(../img/banner2.jpg) no-repeat center;
+width: 100%;
+height: 840px;
+ }
+
+
+/*aca css de karla*/
+@charset "utf-8";
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
 .nopadding{
   padding: 0px !important;
 }
 .navbar-inverse{
-  background: rgb(33, 36, 41) !important;
+  background: rgb(0, 0, 0) !important;
   border: none !important;
   border-radius: 0px !important;
 
@@ -138,15 +242,15 @@ height: 840px;
   height: auto;
   float: left;
 }
-}
+
 
 .active > a{
-  background: rgb(191, 63, 220) !important;
+  background: rgb(0, 0, 0) !important;
 
 }
 
 ul > li > a{
-  color: rgb(233, 205, 240) !important;
+  color: rgb(255,255,255) !important;
   font-family: tahoma !important;
 }
 
@@ -156,7 +260,7 @@ ul > li > a{
 }
 
 ul > li:hover > a{
-  background: rgb(247,169, 241) !important;
+  background: rgb(255,255,255) !important;
 
 }
 
@@ -177,5 +281,8 @@ ul > li:hover > a{
   color: rgb(248, 248, 248);
   background: url(../img/footergrazz.jpg) no-repeat center;
   background-size: cover;
+
+}
+
 
 }
