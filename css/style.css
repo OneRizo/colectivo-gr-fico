@@ -92,7 +92,7 @@ margin-bottom: 0.5%;
 
 }
 
-}
+
 
 .header-icon {
 background: url(../img/banner2.jpg) no-repeat center;
@@ -101,3 +101,81 @@ height: 840px;
  }
 
 
+/*aca css de karla*/
+@charset "utf-8";
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.nopadding{
+  padding: 0px !important;
+}
+.navbar-inverse{
+  background: rgb(33, 36, 41) !important;
+  border: none !important;
+  border-radius: 0px !important;
+
+}
+
+
+.nomargin{
+  margin: 0px !important;
+}
+
+.pull-right{
+  float: right;
+}
+
+@media (max-width:768px){
+  .pull-right{
+  float: left !important;
+    }
+    
+    .w100{
+  width: 100%;
+  height: auto;
+  float: left;
+}
+}
+
+.active > a{
+  background: rgb(191, 63, 220) !important;
+
+}
+
+ul > li > a{
+  color: rgb(233, 205, 240) !important;
+  font-family: tahoma !important;
+}
+
+.navbar-toggle{
+  background: rgb() !important;
+
+}
+
+ul > li:hover > a{
+  background: rgb(247,169, 241) !important;
+
+}
+
+.navbar{
+  margin-bottom: 0px !important;
+}
+
+
+
+.img-fluid{
+  max-width: 100%;
+  height: auto;
+
+}
+
+.bannergrazz{
+  padding: 100px 0;
+  color: rgb(248, 248, 248);
+  background: url(../img/footergrazz.jpg) no-repeat center;
+  background-size: cover;
+
+}
