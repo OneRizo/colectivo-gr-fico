@@ -45,6 +45,7 @@
 	margin-bottom: 0px;
 	background: rgb(3,19,51) !important;
 	border-radius: 0px !important;
+
 }
 
 .navbar-nav > li:hover > a{
@@ -69,13 +70,15 @@
 
 }
 
-.zoomin img{
+.zoomin img {
 	height: 410px !important;
 	width: 410px !important;
 	-webkit-transition: all 2s ease !important;
 	-moz-transition: all 2s ease !important;
 	-ms-transition: all 2s ease !important;
 	transition: all 2s ease !important;
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 
 .zoomin img:hover {
@@ -110,9 +113,8 @@
 	padding: 100px 0;
 	color: rgb(248,248,248);
 	width: 100% !important;
-	min-height: 100% !important;
 	height: 100% !important;
-	background: url(../images/emg7.jpg); no-repeat center;
+	background: url(../img/emg7.jpg); no-repeat center;
 	background-size: cover;
 
 
